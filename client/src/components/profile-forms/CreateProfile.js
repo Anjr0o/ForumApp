@@ -130,6 +130,11 @@ const CreateProfile = (props) => {
           <i className="fab fa-instagram fa-2x"></i>
           <input type="text" placeholder="Instagram URL" name="instagram" />
         </div>
+
+        <div className="form-group social-input">
+          <i className="fab fa-tiktok fa-2x"></i>
+          <input type="text" placeholder="TikTok URL" name="tiktok" />
+        </div>
         <input type="submit" className="btn btn-primary my-1" />
         <a className="btn btn-light my-1" href="dashboard.html">
           Go Back
